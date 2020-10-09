@@ -1,0 +1,158 @@
+body{
+    background-color:#ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+.top{
+    max-width: 1150px;
+    display: flex;
+    margin:auto;
+    
+}
+
+.top nav ul{
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    padding: 0.5em;
+    margin: 1em 0em 0em 0em;
+}
+.top nav ul li{
+    padding-right: 2.5em;
+    color:#A9A9A9;
+    font-size: 0.9em;
+}
+
+
+
+.top nav ul li:hover{
+    color:#00BAB4;
+}
+
+.top nav ul li:active{
+    color:#06807C;
+}
+
+
+.top .cta{
+    display: flex;
+    margin:auto;
+    margin-right:0;
+}
+
+/* ------ Aplica estilo para todos os botões da página ------ */
+
+.button {
+    border: none;
+    border-radius: 3em;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.7em 2em;
+    width: auto;
+    color:#ffffff;
+    font-weight:700;
+    text-transform: uppercase;
+    
+}
+
+/* ------ */
+
+.button-wrapper {
+    display: block;
+    padding-right:1em;
+  }
+
+.contrate_ja{
+    background: linear-gradient(149deg,
+     rgba(6,182,177,1) 0%,
+     rgba(253,224,32,1) 100%);
+}
+
+.contrate_ja:hover{
+    background: linear-gradient(50deg,
+     rgb(4, 155, 150) 0%,
+     rgb(209, 182, 9) 100%);
+
+}
+
+.inscreva-se{
+    border:0.1em solid #00BAB4;
+    color:#00BAB4;
+}
+
+.inscreva-se:hover{
+    border:0.1em solid rgb(1, 160, 155);
+}
+
+.img_logo{
+    margin: 1em;
+    
+}
+
+.imagem_fundo{
+    z-index: -1;
+    width:100%;
+    position: absolute;
+}
+
+header{
+    margin:auto;
+    margin-top:7em;
+    max-width: 1150px;
+
+}
+
+header h1{
+    font-size: 4em;
+    color:#ffffff;
+    width:800px;
+    font-weight: 700;
+}
+
+header h2{
+    margin-top:1em;
+    font-size:1.2em;
+    color:#EE9F54;
+}
+
+.saber_mais{
+    background: #ffffff;
+    color: #000000;
+    border-radius: .2rem;
+    margin: 2em 0;
+}
+
+
+.servicos_header{
+    display: flex;
+    text-align: center;
+    
+}
+
+.icone_servico img{
+    width:5em;
+}
+
+.servicos_header li{
+    padding-right:1.7rem;
+}
+
+.servicos_header .icone_servico{
+    background-color: #ffffff;
+    border-radius: .6rem;
+    padding: 0.3rem 0;
+}
+
+.servicos_header .nome_servico{
+    width:6rem;
+    text-align: center;
+    color:#ffffff;
+    margin-top:1rem;
+    font-weight: 100;
+   
+}
+
