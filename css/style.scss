@@ -116,7 +116,7 @@ body {
 }
 
 .bg2{
-  margin-top:100px;
+  background:url()
 }
 
 // Main
@@ -200,7 +200,7 @@ body {
   }
 }
 
-.sobre{
+.pilares{
   margin-top:7em;
 
   @media (max-width:720px){
@@ -208,7 +208,7 @@ body {
   }
 }
 
-.pilares {
+.topicos {
   width:100%;
   //border:1px solid blue;
   display: flex;
@@ -283,3 +283,11 @@ body {
 
 }
 
+.servicos {
+  border:1px solid red;
+  display: flex;
+
+  &__list {
+    color:blue;
+  }
+}

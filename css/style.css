@@ -135,7 +135,7 @@ body {
 }
 
 .bg2 {
-  margin-top: 100px;
+  background: url();
 }
 
 .intro {
@@ -236,17 +236,17 @@ body {
   width: 80%;
 }
 
-.sobre {
+.pilares {
   margin-top: 7em;
 }
 
 @media (max-width: 720px) {
-  .sobre {
+  .pilares {
     margin-top: 4em;
   }
 }
 
-.pilares {
+.topicos {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,7 +256,7 @@ body {
 }
 
 @media (max-width: 720px) {
-  .pilares {
+  .topicos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -264,11 +264,11 @@ body {
   }
 }
 
-.pilares__image {
+.topicos__image {
   margin-right: 1em;
 }
 
-.pilares__list {
+.topicos__list {
   width: 314px;
   margin-right: 1.7em;
   display: -webkit-box;
@@ -276,20 +276,20 @@ body {
   display: flex;
 }
 
-.pilares__list:nth-child(3n) {
+.topicos__list:nth-child(3n) {
   margin-right: 0;
 }
 
-.pilares__list:last-child {
+.topicos__list:last-child {
   margin-top: 3em;
   width: 100%;
 }
 
-.pilares__text {
+.topicos__text {
   height: 130px;
 }
 
-.pilares__wrapper {
+.topicos__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,7 +297,7 @@ body {
 }
 
 @media (max-width: 720px) {
-  .pilares__wrapper {
+  .topicos__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -305,7 +305,7 @@ body {
   }
 }
 
-.pilares__paragraph {
+.topicos__paragraph {
   line-height: 1.2;
   width: 100%;
   margin-top: .6em;
@@ -313,23 +313,34 @@ body {
   font-weight: lighter;
 }
 
-.pilares__paragraph--larger {
+.topicos__paragraph--larger {
   margin-right: 2em;
 }
 
-.pilares__title {
+.topicos__title {
   font-size: 1.2em;
   font-weight: 500;
 }
 
-.pilares__title--bigger {
+.topicos__title--bigger {
   font-size: 1.8em;
   width: 50%;
 }
 
 @media (max-width: 720px) {
-  .pilares__title--bigger {
+  .topicos__title--bigger {
     width: 100%;
   }
+}
+
+.servicos {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.servicos__list {
+  color: blue;
 }
 /*# sourceMappingURL=style.css.map */
