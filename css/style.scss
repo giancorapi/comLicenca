@@ -205,7 +205,7 @@ body {
 .pilares{
   margin-top:7em;
 
-  @media (max-width:720px){
+  @media (max-width:400px){
     margin-top:4em;
   }
 }
@@ -228,7 +228,12 @@ body {
    width: 314px;
    margin-right: 1.7em;
    //border:1px solid red;
+   margin-top:2em;
    display: flex;
+
+   @media (min-width:1200px){
+    margin-top:.5em;
+  }
 
     &:nth-child(3n){
       margin-right:0;
@@ -237,6 +242,14 @@ body {
     &:last-child{
       margin-top:3em;
       width: 100%;
+
+      @media (max-width:720px){
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width:720px){
+      margin-top: 1em;
     }
 
   }
@@ -272,18 +285,36 @@ body {
   &__wrapper{
     margin-top:1em;
     display:flex;
+
+    @media (max-width:720px){
+      display: block;
+    }
   }
 
 }
 
+@media (max-width:720px){
+  .pilares .topicos__list:last-child .topicos__image  {
+      display: none;
+    }
+}
+
 .funcoes{
   margin-top:9em;
+
+  @media (max-width:720px){
+    margin-top:7em;
+  }
   
 }
 .servicos {
   display: flex;
   justify-content: space-around;
   
+  @media (max-width:720px){
+    flex-direction: column;
+    align-items: center;
+  }
 
   &__list{
     background-color:white;
@@ -291,11 +322,18 @@ body {
     padding:1em 2.5em;
     border-radius: .5em;
     width:29%;
+
+    @media (max-width:720px){
+      width:90%;
+      margin-top:1.3em;
+      padding:1em 2.5em;
+      height:8em;
+    }
+
+    
     
  }
 
 }
 
 
-
-  
